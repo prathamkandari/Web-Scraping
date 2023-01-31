@@ -1,0 +1,3521 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+
+<HEAD>
+    <TITLE>UPES Library</TITLE>
+
+    <META NAME="description" CONTENT="Cane based Cogeneration, The feasibility of CDM Projects in Asia">
+
+    <META NAME="keywords" CONTENT="">
+
+    <META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+
+    <META content="Microsoft FrontPage 4.0" name=GENERATOR>
+
+    <meta name="Author" content="Dr. Ranjan Sinha Thakur">
+
+    <META http-equiv=Content-Type content="text/html; charset=windows-1252">
+
+    <!-- FREE code from WWW.CGISCRIPT.NET, LLC -->
+
+    <link rel="stylesheet" type="text/css" href="../css/styles_rc.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/upes.css" />
+
+
+
+    <script>
+
+        <!--
+        
+        /* Copyright http://www.perlscriptsjavascripts.com 
+        
+           Free and commercial Perl and JavaScripts     */
+
+
+
+        isNN = document.layers ? 1 : 0;
+
+
+
+        function noContext() { return false; }
+
+
+
+        function noClick(e) {
+
+            if (isNN) {
+
+                if (e.which > 1) { return false; }
+
+            } else {
+
+                if (event.button > 1) { return false; }
+
+            }
+
+        }
+
+
+
+        if (isNN) {
+
+            document.captureEvents(Event.MOUSEDOWN);
+
+        }
+
+
+
+        document.oncontextmenu = noContext;
+
+        document.onmousedown = noClick;
+
+        document.onmouseup = noClick;
+
+
+
+// -->
+
+    </script>
+
+    <SCRIPT LANGUAGE="JavaScript">
+
+
+
+        <!-- Begin
+        
+        function createHexArray(n) {
+        
+        this.length = n;
+        
+        for (var i = 1; i <= n; i++)
+        
+        this[i] = i - 1;
+        
+        
+        
+        this[11] = "A";
+        
+        this[12] = "B";
+        
+        this[13] = "C";
+        
+        this[14] = "D";
+        
+        this[15] = "E";
+        
+        this[16] = "F";
+        
+        return this;
+        
+        }
+        
+        hx = new createHexArray(16);
+        
+        
+        
+        function convertToHex(x) {
+        
+        if (x < 17) x = 16;
+        
+        var high = x / 16;
+        
+        var s = high+"";
+        
+        s = s.substring(0, 2);
+        
+        high = parseInt(s, 10);
+        
+        var left = hx[high + 1];
+        
+        var low = x - high * 16;
+        
+        if (low < 1) low = 1;
+        
+        s = low + "";
+        
+        s = s.substring(0, 2);
+        
+        low = parseInt(s, 10);
+        
+        var right = hx[low + 1];
+        
+        var string = left + "" + right;
+        
+        return string;
+        
+        }
+        
+        
+        
+        function makeRainbow(text) {
+        
+        text = text.substring(0, text.length);
+        
+        color_d1 = 255;
+        
+        mul = color_d1 / text.length;
+        
+        for(var i = 0; i < text.length; i++) {
+        
+        color_d1 = 255*Math.sin(i / (text.length / 3));
+        
+        color_h1 = convertToHex(color_d1);
+        
+        color_d2 = mul * i;
+        
+        color_h2 = convertToHex(color_d2);
+        
+        
+        
+        k = text.length;
+        
+        j = k - i;
+        
+        if (j < 0) j = 0;
+        
+        color_d3 = mul * j;
+        
+        color_h3 = convertToHex(color_d3);
+        
+        
+        
+        document.write("<FONT COLOR=\"#" + color_h3 + color_h1 + color_h2 + "\">" + text.substring(i, i + 1) + "</FONT>");
+        
+            }
+        
+        }
+        
+        // End -->
+
+    </script>
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+    <script language="JavaScript">
+
+        < !-
+
+            function MM_popupMsg(msg) { //v1.0
+
+                alert(msg);
+
+            }
+
+
+
+        function MM_callJS(jsStr) { //v2.0
+
+            return eval(jsStr)
+
+        }
+
+
+
+        function MM_swapImgRestore() { //v3.0
+
+            var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+
+        }
+
+
+
+        function MM_preloadImages() { //v3.0
+
+            var d = document; if (d.images) {
+                if (!d.MM_p) d.MM_p = new Array();
+
+                var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+
+                    if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+            }
+
+        }
+
+
+
+        function MM_findObj(n, d) { //v3.0
+
+            var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+
+                d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+            }
+
+            if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+
+            for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document); return x;
+
+        }
+
+
+
+        function MM_swapImage() { //v3.0
+
+            var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+
+                if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+
+        }
+
+
+
+        function MM_openBrWindow(theURL, winName, features) { //v2.0
+
+            window.open(theURL, winName, features);
+
+        }
+
+        //-->
+
+    </script>
+
+    <meta name="keywords" content="Dasturco, International Assignment">
+
+
+
+    <meta name="description" content="E-Journals, e-books">
+
+
+
+</HEAD>
+
+
+
+<SCRIPT LANGUAGE="Javascript">< !-
+
+
+
+var message = "FUNCTION DISABLED";
+
+    function click(e) {
+
+        if (document.all) {
+
+            if (event.button == 2) {
+
+                alert(message);
+
+                return false;
+
+            }
+
+        }
+
+        if (document.layers) {
+
+            if (e.which == 3) {
+
+                alert(message);
+
+                return false;
+
+            }
+
+        }
+
+    }
+
+    if (document.layers) {
+
+        document.captureEvents(Event.MOUSEDOWN);
+
+    }
+
+    document.onmousedown = click;
+
+// --></SCRIPT>
+
+
+
+<script language="Javascript1.2">
+
+
+
+    message = "Function Disabled!";
+
+
+
+    function NoRightClick(b) {
+
+        if (((navigator.appName == "Microsoft Internet Explorer") && (event.button > 1))
+
+            || ((navigator.appName == "Netscape") && (b.which > 1))) {
+
+            alert(message);
+
+            return false;
+
+        }
+
+    }
+
+    document.onmousedown = NoRightClick;
+
+
+
+// -->
+
+</script>
+
+
+
+
+
+<script ID="clientEventHandlersJS" LANGUAGE="javascript">
+
+    < !-
+
+
+
+        function imgForward_onmouseover() {
+
+            imgForward.style.cursor = "hand";
+
+        }
+
+    function imgForward_onclick() {
+
+        top.history.forward();
+
+    }
+
+
+
+    function imgBack_onclick() {
+
+        top.history.back();
+
+
+
+    }
+
+
+
+    function imgBack_onmouseover() {
+
+        imgBack.style.cursor = "hand";
+
+    }
+
+
+
+    function imgHome_onclick() {
+
+        //self.close();
+
+
+
+        top.close();
+
+        //indow.close();       
+
+    }
+
+
+
+    function imgHome_onmouseover() {
+
+        imgHome.style.cursor = "hand";
+
+    }
+
+
+
+    //-->
+
+</script>
+
+<SCRIPT LANGUAGE="Javascript">< !-
+
+
+
+var message = "FUNCTION DISABLED";
+
+    function click(e) {
+
+        if (document.all) {
+
+            if (event.button == 2) {
+
+                alert(message);
+
+                return false;
+
+            }
+
+        }
+
+        if (document.layers) {
+
+            if (e.which == 3) {
+
+                alert(message);
+
+                return false;
+
+            }
+
+        }
+
+    }
+
+    if (document.layers) {
+
+        document.captureEvents(Event.MOUSEDOWN);
+
+    }
+
+    document.onmousedown = click;
+
+// --></SCRIPT>
+
+
+
+<script>
+
+    function newWindow(page) {
+
+        OpenWin = this.open(page, "CtrlWindow", "toolbar=yes,menubar=yes,location=yes,scrollbars=yes,resizable=yes,status=no,left=0,top=0");
+
+    }
+
+
+
+    function newWindowJournals(page) {
+
+        OpenWin = this.open(page, "CtrlWindow", "toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,status=no,left=20,top=50, width=720, height=450");
+
+    }
+
+</script>
+
+
+
+
+
+
+
+<body bgcolor="#FDFAFA" link="black" alink="black" vlink="black" LANGUAGE=javascript>
+
+    <br><br>
+
+
+
+
+
+
+
+    <table border="1" cellpadding="5" cellspacing="20" width="98%" HEIGHT="AUTO">
+
+
+
+        <tr>
+
+            <!--<td width="40%" valign="top">-->
+
+
+
+            <td width="98%" style="border-leftsolid silver 1px" ; valign="top">
+
+
+
+
+
+                <!--This is the table to display text-->
+
+
+
+                <!-- Heading of the page -->
+
+                <div class="heading_one">
+                    <font face="Verdana" size="4" color="blue">
+                        <center><b>PREVIOUS YEARS QUESTION PAPERS</center></b>
+                </div>
+
+                <!-- Heading of the page -->
+
+
+
+                <hr />
+
+
+
+
+
+                <strong><a name="vision"></a></strong>
+
+                <div class="heading_two"></div>
+
+                <hr>
+
+
+
+                <center>
+                    <font face="Verdana" size="2" color="blue"> <b> <a href="#sem1">SEM-1</a>| <a href="#sem2">SEM-2</a>
+                            |<a href="#sem3">SEM-3</a> | <a href="#sem4">SEM-4</a> | <a href="#sem5">SEM-5</a> |<a
+                                href="#sem6">SEM-6</a> | <a href="#sem7">SEM-7</a> | <a href="#sem8">SEM-8</a> |</b>
+                </center>
+
+
+
+
+
+                <hr>
+
+                <br>
+
+                <a name="sem1"></a>
+
+
+
+                <table width="99%" border: 0px solid black; cellspacing="1" cellpadding="1">
+
+                    <!--<tr>
+
+<td colspan="2" style="font-family verdana, arial; font-size 80%">&nbsp; &nbsp; &nbsp;<b>E-databases - Engineering</b></td></div>
+
+</tr>-->
+
+                    <tr>
+
+                        <div class="about-info">
+
+                            <td width="99%" valign="top" align="justify">
+
+
+
+
+
+                                <div class="mainpage">
+
+
+
+                                    <table width="100%" border="0px" align="left">
+
+                                        <tr>
+
+                                            <td colspan="5" style="align-content: left; background-color: #FFFFCC;">
+                                                <center>
+                                                    <font face="Verdana" size="2" color="#0033CC"><b> B.Tech Computer
+                                                            Science & Engineering with specialization in AI & Machine
+                                                            Learning-SEM-I
+                                                </center>
+                                            </td>
+                                        </tr>
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #CCFFFF">
+
+
+
+
+
+                                            <th width="15%" align="left">Year</th>
+
+                                            <th width="25%" align="left">Program/course</th>
+
+
+
+                                            <th width="10%" align="left">Course Code</th>
+
+                                            <th width="35%" align="left">Subject</th>
+
+
+
+                                            <th width="15%" align="left">
+                                                <nobr>Download</nobr>
+                                            </th>
+
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">December 2021</td>
+
+                                            <td align="left">B. Tech CSE</td>
+
+                                            <td align="left">MATH 1036</td>
+
+                                            <td>Engineering Mathematics</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3988/1/9237_ESE_DEC21_SOCS__1_B.Tech-CSE_MATH1036_Engineering%20Mathematics.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">December 2021</td>
+
+                                            <td align="left">B. Tech CSE</td>
+
+                                            <td align="left">PHYS 1023 </td>
+
+                                            <td>Engineering Physics</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3988/2/9238_ESE_DEC21_SOCS__1_B.Tech-CSE_PHYS1023_Engineering%20Physics.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">December 2021</td>
+
+                                            <td align="left">B. Tech CSE</td>
+
+                                            <td align="left">CSEG 1010</td>
+
+                                            <td>Principal of Programming Language</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3988/3/9239_ESE_DEC21_SOCS__1_B.Tech-CSE_CSEG1010_Principles%20of%20Programming%20Languages.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">January-February 2021</td>
+
+                                            <td align="left">B. Tech CSE</td>
+
+                                            <td align="left">MATH 1036</td>
+
+                                            <td>Engineering Mathematics</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3552/4/SOCS_Sem%201_B.Tech-CSE_MATH1036_Engineering%20Mathematics.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">January 2021</td>
+
+                                            <td align="left">B. Tech CSE</td>
+
+                                            <td align="left">PHYS 1023</td>
+
+                                            <td>Engineering Physics</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3552/5/SOCS_Sem%201_B.Tech-CSE_PHYS1023_Engineering%20Physics.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">January 2021</td>
+
+                                            <td align="left">B. Tech CSE</td>
+
+                                            <td align="left">CSEG 1010</td>
+
+                                            <td>Principles of Programming Languages</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3552/3/SOCS_Sem%201_B.Tech-CSE_CSEG1010_Principles%20of%20Programming%20Languages.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">December 2019</td>
+
+                                            <td align="left">B. Tech CSE AI& ML</td>
+
+                                            <td align="left">CSEG 1002</td>
+
+                                            <td>Programming and Data Structures</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2918/1/B%20TECH%20CSE-ALL-I-Programming%20and%20Data%20structures.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">December 2019</td>
+
+                                            <td align="left">B. Tech CSE AI& ML</td>
+
+                                            <td align="left">CSAI 1001</td>
+
+                                            <td>Programming with Python</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2918/5/B%20TECH%28CSE%2bAI%26ML%29-I-Programming%20with%20Python.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">December 2019</td>
+
+                                            <td align="left">B.Tech CSE AI& ML</td>
+
+                                            <td align="left">PHYS 1003</td>
+
+                                            <td>Basic Electronics Engineering</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2918/16/B%20TECH-B.Tech.%20CSE-AIML%2c%20Big%20Data%2c%20SCF%2c%20Dev%20Ops%2c%20OSS%2c%20OGI%2c%20IoT%20smart%20city%2c%20Cyber%20Law-I-Basic%20Electronics%20Engineering.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">December 2019</td>
+
+                                            <td align="left">B.Tech CSE AI& ML</td>
+
+                                            <td align="left">MATH 1002</td>
+
+                                            <td>Mathematics-I</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2918/17/B%20TECH-CSE-All%20SOCS%20Branches-I-Mathematics%20I.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">December 2019</td>
+
+                                            <td align="left">B.Tech CSE AI & ML</td>
+
+                                            <td align="left">PHYS 1008</td>
+
+                                            <td>Physics</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2918/18/B%20Tech-CSE-I-Physics%20I-1008.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">December 2018</td>
+
+                                            <td align="left">B.Tech (CIT: IOT, Big Data, DevOps, CSF, Cyber Law/IPR,
+                                                OGI, OSS, Ai&ML)</td>
+
+                                            <td align="left">PHYS 1003</td>
+
+                                            <td>Basic Electronics Engineering</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2721/46/7-M-BasicElectronicsEngineering_10031031070443.500_X_500.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">December 2018</td>
+
+                                            <td align="left">B. Tech (SoCS) [CS-CSF, Bigdata, OGI, Devops, AI+ML, OSOS &
+                                                IOT] </td>
+
+                                            <td align="left">PHYS 1008</td>
+
+                                            <td>Physics </td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2721/132/10-M-PhysicsI_10081030160258.965_X.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">December 2017</td>
+
+                                            <td align="left">B. Tech CSE</td>
+
+                                            <td align="left">MATH 1002</td>
+
+                                            <td>Mathematics-I</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2731/70/4-M-MathematicsI_20171124073750.422_X.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+                                        <tr
+                                            style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                            <td align="left">December 2017</td>
+
+                                            <td align="left">B. Tech CSE All IBM Branches</td>
+
+                                            <td align="left">CSOS 1001</td>
+
+                                            <td>Open Source & Open Standards</td>
+
+                                            <td><a CLASS="LINK"
+                                                    href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2731/479/8-M-OpenSourceandOpenStandards_20171205163109.949_X.pdf"
+                                                    target="blank">Download</a></td>
+
+                                        </tr>
+
+
+
+
+
+                    </tr>
+
+
+
+                </table>
+
+
+
+                </div>
+
+
+
+                </div>
+
+                </li>
+
+                </p>
+
+
+
+            </td>
+    </TABLE>
+
+
+
+    <a name="sem2"></a>
+
+    <table width="99%" border="0" cellspacing="1" cellpadding="1">
+
+        <!--<tr>
+
+<td colspan="2" style="font-family verdana, arial; font-size 80%">&nbsp; &nbsp; &nbsp;<b>E-databases - Engineering</b></td></div>
+
+</tr>-->
+
+        <tr>
+
+            <div class="about-info">
+
+                <td width="99%" valign="top" align="justify">
+
+
+
+
+
+                    <div class="mainpage">
+
+
+
+
+
+
+
+                        <div class="about-info">
+
+                            <table width="100%" align="left" border-style="ridge">
+
+                                <tr>
+
+                                    <td colspan="5" style="align-content: left; background-color: #FFFFCC;">
+                                        <center>
+                                            <font face="Verdana" size="2" color="#CC0000"> <b> B.Tech Computer Science &
+                                                    Engineering with specialization in AI & Machine Learning-SEM-II
+                                        </center>
+                                    </td>
+                                </tr>
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #CCFFFF">
+
+
+
+
+
+                                    <th width="15%" align="left">Year</th>
+
+                                    <th width="25%" align="left">Program/course</th>
+
+
+
+                                    <th width="10%" align="left">Course Code</th>
+
+                                    <th width="35%" align="left">Subject</th>
+
+
+
+                                    <th width="15%" align="left">
+                                        <nobr>Download</nobr>
+                                    </th>
+
+
+
+
+
+                                </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">June 2021</td>
+
+                                    <td align="left">B.Tech. SOCS</td>
+
+                                    <td align="left">PHYS 1023</td>
+
+                                    <td>Engineering Physics</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3563/6/ESE_MAY21_SOCS_II_B.Tech-CSE_PHYS1023_Engineering%20Physics.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">June 2021</td>
+
+                                    <td align="left">B.Tech. CSE+LLB</td>
+
+                                    <td align="left">CSEG 1014</td>
+
+                                    <td>Computer System Architecture</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3563/4/ESE_MAY21_SOCS_II_B.Tech-CSE_CSEG1014_Computer%20System%20Architecture.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">June 2021</td>
+
+                                    <td align="left">B.Tech. (All Branches)</td>
+
+                                    <td align="left">CSEG 1013</td>
+
+                                    <td>Operating System</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3563/3/ESE_MAY21_SOCS_II_B.Tech-CSE_CSEG1013_Operating%20Systems.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">June 2021</td>
+
+                                    <td align="left">B.Tech. (All SOCS)</td>
+
+                                    <td align="left">CSEG 1012</td>
+
+                                    <td>Discrete Mathematics</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3563/2/ESE_MAY21_SOCS_II_B.Tech-CSE_CSEG1012_Discrete%20Mathematics.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2021</td>
+
+                                    <td align="left">B.Tech. CSE</td>
+
+                                    <td align="left">CSIB 1002</td>
+
+                                    <td>Python Programming</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3563/5/ESE_MAY21_SOCS_II_B.Tech-CSE_CSIB1002_Python%20Programming.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2021</td>
+
+                                    <td align="left">B.Tech. CSE</td>
+
+                                    <td align="left">CSEG 1011</td>
+
+                                    <td>Data Structures</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3563/1/ESE_MAY21_SOCS_II_B.Tech-CSE_CSEG1011_Data%20Structures.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">July 2020</td>
+
+                                    <td align="left">B.Tech All SoCS Branches </td>
+
+                                    <td align="left">PHYS 1008</td>
+
+                                    <td>PHYSICS </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3314/9/ESE%20NGB%20B%20TECH%28CSE%2bAll%20SOCS%29%20%20II%20PHYS1008%20Physics%20I.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">July 2020</td>
+
+                                    <td align="left">B.Tech All SoCS Branches </td>
+
+                                    <td align="left">CHEM 1011</td>
+
+                                    <td>Chemistry (Common Course) </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3314/6/ESE%20NGB%20B%20TECH%28CSE%2bAll%20SOCS%29%20%20II%20CHEM1011%20Chemistry%20I.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2020</td>
+
+                                    <td align="left">B.Tech All SoCS Branches </td>
+
+                                    <td align="left">MATH 1005</td>
+
+                                    <td>Mathematics II </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3314/7/ESE%20NGB%20B%20TECH%28CSE%2bAll%20SOCS%29%20%20II%20MATH1005%20Mathematics%20II.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">July 2020</td>
+
+                                    <td align="left">B.Tech CS- AI&ML </td>
+
+                                    <td align="left"> CSEG 1004 </td>
+
+                                    <td>Advanced Data Structures </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3314/5/ESE%20NGB%20B%20TECH%28CSE%2bAI%26ML%29%20%20II%20CSEG1004%20Advanced%20Data%20Structures.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2020</td>
+
+                                    <td align="left">B.Tech. AIML </td>
+
+                                    <td align="left"> CSAI 1002 </td>
+
+                                    <td>Introduction to Artificial Intelligence </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3314/4/ESE%20NGB%20B%20TECH%28CSE%2bAI%26ML%29%20%20II%20CSAI1002%20Introduction%20to%20Artificial%20Intelligence.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2019</td>
+
+                                    <td align="left">B.Tech. CSE (AI&ML, BAO, BFSI, BigData, CCVT, CSF, DevOps, ECom&RA,
+                                        GG, IT
+
+                                        Infra, MAD, MFT, OGI, OS&OS, IOT&SC), B.Tech. CSE LLB Cyber Law </td>
+
+                                    <td align="left"> CSEG 1004 </td>
+
+                                    <td>Advanced Data Structures </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2723/52/14-M-II-AdvancedDataStructures_20190413092142.201_X.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2019</td>
+
+                                    <td align="left">B. Tech CSE Spz in AIML </td>
+
+                                    <td align="left">CSAI 1002 </td>
+
+                                    <td>Introduction to Artificial Intelligence </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2723/89/10-M-Introduction%20to%20Artificial%20Intelligence-updated.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2019</td>
+
+                                    <td align="left">B.Tech All SoCS Branches </td>
+
+                                    <td align="left">MATH 1005</td>
+
+                                    <td>Mathematics II </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2723/156/6-M-MATHEMATICS-%201005_updated.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2019</td>
+
+                                    <td align="left"> B.Tech (APE-UP, APE-GAS, Chemical, Mechanical, CSF, OSS, OG,
+                                        IOT&SC, Dev-Ops, Bigdata and AI (11 branches) </td>
+
+                                    <td align="left">CHEM 1011</td>
+
+                                    <td>Chemistry</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2730/73/8-M-Chemistry-1011-updated.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2017</td>
+
+                                    <td align="left">Btech CSE+All IBM Programs</td>
+
+                                    <td align="left">CSEG-228</td>
+
+                                    <td>Operating Systems</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2731/340/7-E-OperatingSystems_20171204165726.549_X.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+
+
+
+
+
+
+        </tr>
+
+
+
+    </table>
+
+
+
+    </div>
+
+
+
+    </div>
+
+    </li>
+
+    </p>
+
+
+
+    </td>
+    </TABLE>
+
+
+
+
+
+    <a name="sem3"></a>
+
+    <table width="99%" border="0" cellspacing="1" cellpadding="1">
+
+        <!--<tr>
+
+<td colspan="2" style="font-family verdana, arial; font-size 80%">&nbsp; &nbsp; &nbsp;<b>E-databases - Engineering</b></td></div>
+
+</tr>-->
+
+        <tr>
+
+            <div class="about-info">
+
+                <td width="99%" valign="top" align="justify">
+
+
+
+
+
+                    <div class="mainpage">
+
+
+
+
+
+
+
+                        <div class="about-info">
+
+                            <table width="100%" align="left" border-style="ridge">
+
+                                <tr>
+
+                                    <td colspan="5" style="align-content: left; background-color: #FFFFCC;">
+                                        <center>
+                                            <font face="Verdana" size="2" color="#0033CC"> <b> B.Tech Computer Science &
+                                                    Engineering with specialization in AI & Machine Learning-SEM-III
+                                        </center>
+                                    </td>
+                                </tr>
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #CCFFFF">
+
+
+
+
+
+                                    <th width="15%" align="left">Year</th>
+
+                                    <th width="25%" align="left">Program/course</th>
+
+
+
+                                    <th width="10%" align="left">Course Code</th>
+
+                                    <th width="35%" align="left">Subject</th>
+
+
+
+                                    <th width="15%" align="left">
+                                        <nobr>Download</nobr>
+                                    </th>
+
+
+
+
+
+                                </tr>
+
+
+
+
+
+
+
+
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">BCA BFSI, B.Tech CSF/BData/CCVT/BAO/<br>AIML/DevOps/GG/IoT</td>
+
+                                    <td align="left">SOL20B001</td>
+
+                                    <td>Constitution and Indian Polity</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3976/22/10006_ESE_DEC21_Exploratory__3_SOL20B001_Constitution%20and%20Indian%20Polity.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech All (SOE, SOCS)</td>
+
+                                    <td align="left">SOE20B003</td>
+
+                                    <td>Introduction to Petroleum Engineering</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3989/62/9951_ESE_DEC21_Exploratory__3__SOE_SOCS_SOE20B003_Introduction%20to%20Petroleum%20Engineering.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech CSE</td>
+
+                                    <td align="left">CSSF 2009</td>
+
+                                    <td>IT System Security and Physical Security</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3989/53/8247_ESE_DEC21_SOCS__3_BTec-CSE-AIM_CSSF2009_IT%20Systems%20Security%20%26%20Physical%20Security.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech CSE</td>
+
+                                    <td align="left">CSEG 2035P</td>
+
+                                    <td>Formal Languages and Automata Theory</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3989/24/8217_ESE_DEC21_SOCS__3_BTec-CSE-AIM_CSEG2035P_Formal%20Languages%20%26%20Automata%20Theory.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech CSE AIML</td>
+
+                                    <td align="left">CSBA 2010</td>
+
+                                    <td>Applied Statistics</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3989/22/8215_ESE_DEC21_SOCS__3_BTec-CSE-AIM_CSBA2010_Applied%20Statistics.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech CSE AIML</td>
+
+                                    <td align="left">CSAI 2007</td>
+
+                                    <td>Introduction to Artificial Intelligence</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3989/21/8214_ESE_DEC21_SOCS__3_BTec-CSE-AIM_CSAI2007_Introduction%20to%20Artificial%20Intelligence.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech CSE</td>
+
+                                    <td align="left">CSEG 2036P</td>
+
+                                    <td>Probability and Statistics for Engineers</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3989/20/8213_ESE_DEC21_SOCS__3_BTec-CSE-AIM_CSEG2036P_Probability%20%26%20Statistics%20for%20Engineers.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech CSE</td>
+
+                                    <td align="left">CSEG 2021</td>
+
+                                    <td>Design and Analysis of Algorithms</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3989/19/8212_ESE_DEC21_SOCS__3_BTec-CSE-AIM_CSEG2021_Design%20%26%20Analysis%20of%20Algorithm.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech CSE + ALL IBM Branch and Xebia Big Data, DevOps</td>
+
+                                    <td align="left">CSEG 2020</td>
+
+                                    <td>Object Oriented Programming</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3989/18/8211_ESE_DEC21_SOCS__3_BTec-CSE-AIM_CSEG2020_Object%20Oriented%20Programming.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech CSE AIML</td>
+
+                                    <td align="left">CSEG 2008</td>
+
+                                    <td>Software Engineering and Project Management</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3989/17/8210_ESE_DEC21_SOCS__3_BTec-CSE-AIM_CSEG2008_Software%20Engineering%20%26%20Project%20Mgmt..pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left">B. Tech CSE AIML</td>
+
+                                    <td align="left">CSEG 2017</td>
+
+                                    <td>Advanced Database Management Systems</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3348/6/ESE_DEC2020_SOCS_B%20TECH%20CSE%20AI%26ML_SEM%20III_CSEG2017_ADVANCED%20DATABASE%20MANAGEMENT%20SYSTEMS.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left">B. Tech. CSE IBM + Xebia Specializations</td>
+
+                                    <td align="left">CSEG 2007</td>
+
+                                    <td>Operating System Concepts</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3348/5/ESE_DEC2020_SOCS_B%20TECH%20CSE%20AI%26ML_SEM%20III_CSEG2007_OPERATING%20SYSTEMS.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left">B.Tech. (SOCS All Branches)</td>
+
+                                    <td align="left">CSEG 2006</td>
+
+                                    <td>Discrete Mathematical Structures</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3348/4/ESE_DEC2020_SOCS_B%20TECH%20CSE%20AI%26ML_SEM%20III_CSEG2006_DISCRETE%20MATHEMATICAL%20STRUCTURES.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left">B. Tech CSE AIML</td>
+
+                                    <td align="left">CSEG 2003</td>
+
+                                    <td>Design and Analysis of Algorithms</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3348/3/ESE_DEC2020_SOCS_B%20TECH%20CSE%20AI%26ML_SEM%20III_CSEG2003_DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left">B. Tech CSE AIML</td>
+
+                                    <td align="left">CSAI 2005</td>
+
+                                    <td>Data Mining & Prediction by Machines</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3348/2/ESE_DEC2020_SOCS_B%20TECH%20CSE%20AI%26ML_SEM%20III_CSAI2005_DATA%20MINING%20AND%20PREDICTION%20BY%20MACHINES.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2019</td>
+
+                                    <td align="left">B.Tech(CSE)-All IBM Courses</td>
+
+                                    <td align="left">CSEG 3004</td>
+
+                                    <td>Formal Languages and Automata Theory</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2919/1/B%20TECH%20%28CS%2bAll%20IBM%20courses-III-Formal%20Languages%20and%20Automata%20Theory.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2019</td>
+
+                                    <td align="left">B.Tech (All SoCS Branches)</td>
+
+                                    <td align="left">CSEG 2006</td>
+
+                                    <td>Discrete Mathematical Structures</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2919/2/B%20TECH%20CSE-All%20SoCS%20branches-III-Discrete%20Mathematical%20Structures.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2019</td>
+
+                                    <td align="left">B.Tech CSE+AI/ML </td>
+
+                                    <td align="left">CSAI 2001</td>
+
+                                    <td>Machine Learning </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2919/4/B%20TECH%28CSE%2bAI%26ML%29-III-Machine%20Learning.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2019</td>
+
+                                    <td align="left">B.Tech(CSE+All)</td>
+
+                                    <td align="left">CSEG 2003</td>
+
+                                    <td>Design and Analysis of Algorithms</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2919/22/B.Tech%20CSE%2bAll%20-III-Design%20and%20Analysis%20of%20Algorithms.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2019</td>
+
+                                    <td align="left">B.Tech. CSE- All IBM + Xebia Branches</td>
+
+                                    <td align="left">CSEG 2007</td>
+
+                                    <td>Operating System</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2919/24/B.Tech.%20CSE-%20All%20IBM%20%2b%20Xebia%20Branches%29-III-Operating%20Systems.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2019</td>
+
+                                    <td align="left">B.Tech.-CSE with all specialization</td>
+
+                                    <td align="left">CSEG 2017</td>
+
+                                    <td>Advanced Database Management Systems</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2919/26/B.Tech.-CSE%20with%20all%20specialization-III-Advanced%20Database%20Management%20Systems.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2017</td>
+
+                                    <td align="left">B.Tech. (CSE) </td>
+
+                                    <td align="left">MATH 231</td>
+
+                                    <td>Discrete Mathematical Structures</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2731/10/4-E-DiscreteMathematicalStructures_20171128112515.591_X.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2017</td>
+
+                                    <td align="left">B.Tech(CSE)-All IBM Courses</td>
+
+                                    <td align="left">CGEG 242</td>
+
+                                    <td>Design and Analysis of Algorithms</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2731/101/5-E-DesignandAnalysisofAlgorithms_20171124061259.305_X_3.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2017</td>
+
+                                    <td align="left">B.Tech(CSE)-All IBM Courses</td>
+
+                                    <td align="left">CSEG 235</td>
+
+                                    <td>Advanced Database Management System</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2731/419/8-E-AdvancedDatabaseManagementSystems_20171130124311.783_X_201711301243.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2017</td>
+
+                                    <td align="left">B.Tech(CSE)-All IBM Courses</td>
+
+                                    <td align="left">INFO 119</td>
+
+                                    <td>Computer System Architecture</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2731/493/11-E-ComputerSystemArchitecture_20171205160053.202_X_202.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+        </tr>
+
+
+
+    </table>
+
+
+
+    </div>
+
+
+
+    </div>
+
+    </li>
+
+    </p>
+
+
+
+    </td>
+    </TABLE>
+
+
+
+    <a name="sem4"></a>
+
+    <table width="99%" border="0" cellspacing="1" cellpadding="1">
+
+        <!--<tr>
+
+<td colspan="2" style="font-family verdana, arial; font-size 80%">&nbsp; &nbsp; &nbsp;<b>E-databases - Engineering</b></td></div>
+
+</tr>-->
+
+        <tr>
+
+            <div class="about-info">
+
+                <td width="99%" valign="top" align="justify">
+
+
+
+
+
+                    <div class="mainpage">
+
+
+
+
+
+
+
+                        <div class="about-info">
+
+                            <table width="100%" align="left" border-style="ridge">
+
+                                <tr>
+
+                                    <td colspan="5" style="align-content: left; background-color: #FFFFCC;">
+                                        <center>
+                                            <font face="Verdana" size="2" color="#CC0000"> <b> B.Tech Computer Science &
+                                                    Engineering with specialization in AI & Machine Learning-SEM-IV
+                                        </center>
+                                    </td>
+                                </tr>
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #CCFFFF">
+
+
+
+
+
+                                    <th width="15%" align="left">Year</th>
+
+                                    <th width="25%" align="left">Program/course</th>
+
+
+
+                                    <th width="10%" align="left">Course Code</th>
+
+                                    <th width="35%" align="left">Subject</th>
+
+
+
+                                    <th width="15%" align="left">
+                                        <nobr>Download</nobr>
+                                    </th>
+
+
+
+
+
+                                </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2021</td>
+
+                                    <td align="left">B.Tech. CSE+ALL IBM Course</td>
+
+                                    <td align="left">CSEG 2016</td>
+
+                                    <td>Object Oriented Programming</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3566/37/ESE_MAY21_SOCS_IV_BTec-CSE-AIM_CSEG2016_Object%20Oriented%20Programming.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2021</td>
+
+                                    <td align="left">B.Tech. CSE </td>
+
+                                    <td align="left"> CSEG 2009</td>
+
+                                    <td>Data Communication and Computer Networks</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3566/36/ESE_MAY21_SOCS_IV_BTec-CSE-AIM_CSEG2009_Data%20Communication%20and%20Computer%20Networks.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2021</td>
+
+                                    <td align="left">B.Tech. CSE All Branches</td>
+
+                                    <td align="left">CSEG 2008</td>
+
+                                    <td>Software Engineering and Project Management</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3566/35/ESE_MAY21_SOCS_IV_BTec-CSE-AIM_CSEG2008_Software%20Engineering%20and%20Project%20Management.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2021</td>
+
+                                    <td align="left">B.Tech. CSE+AI/ML</td>
+
+                                    <td align="left"> CSAI 2006 </td>
+
+                                    <td>Introduction to Machine Learning</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3566/34/ESE_MAY21_SOCS_IV_BTec-CSE-AIM_CSAI2006_Introduction%20to%20Machine%20Learning.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2021</td>
+
+                                    <td align="left">B.Tech. CSE+AI/ML</td>
+
+                                    <td align="left"> CSAI 2004 </td>
+
+                                    <td>Algorithm for Intelligent Systems and Robotics</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3566/33/ESE_MAY21_SOCS_IV_BTec-CSE-AIM_CSAI2004_Algorithm%20for%20Intelligent%20Systems%20and%20Robotics.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">July 2020</td>
+
+                                    <td align="left">B.Tech. CSE AI&ML</td>
+
+                                    <td align="left"> CSEG 2008 </td>
+
+                                    <td>Software Engineering and Project Management</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3313/80/ESE%20NGB%20B%20TECH%28CSE%2bAI%26ML%29%20IV%20CSEG2008%20Software%20Engineering%20%26%20Project%20Mgmt..pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">July 2020</td>
+
+                                    <td align="left">B.Tech. (CSE+AI&ML)</td>
+
+                                    <td align="left"> CSEG 2009 </td>
+
+                                    <td>Data Communication and Computer Networks</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3313/79/ESE%20NGB%20B%20TECH%28CSE%2bAI%26ML%29%20IV%20CSEG2009%20Data%20Communication%20and%20Computer%20Networks.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">July 2020</td>
+
+                                    <td align="left">B.Tech. CSE+AI/ML</td>
+
+                                    <td align="left"> CSAI 2004 </td>
+
+                                    <td>Algorithm for Intelligent Systems and Robotics</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3313/78/ESE%20NGB%20B%20TECH%28CSE%2bAI%26ML%29%20IV%20CSAI2004%20Algorithm%20for%20Intelligent%20System%26Robotic.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">July 2020</td>
+
+                                    <td align="left">B.Tech. CSE AI&ML</td>
+
+                                    <td align="left"> CSAI 2005 </td>
+
+                                    <td>Data Mining & Prediction by machine</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3313/76/ESE%20NGB%20B%20TECH%28CSE%2bAI%26ML%29%20IV%20CSAI2005%20Data%20Mining%20and%20prediction%20by%20machines.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">July 2020</td>
+
+                                    <td align="left">B Tech CSE+AIML</td>
+
+                                    <td align="left">CSEG 2016</td>
+
+                                    <td>Object Oriented Programming</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3313/1/ESE%20NGB%20B%20TECH%28CSE%2bAI%26ML%29%20IV%20CSEG2016%20Object%20Oriented%20Programming.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2019</td>
+
+                                    <td align="left">B.Tech CSE All IBM Branches </td>
+
+                                    <td align="left">CSEG 2010 </td>
+
+                                    <td>Advance Programming using Java</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2723/85/13-E-Advance%20programming%20using%20java-updated.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2019</td>
+
+                                    <td align="left">B.tech CSE IBM and XEBIA(All branches) </td>
+
+                                    <td align="left">CSEG 2008 </td>
+
+                                    <td>Software Engineering and Project Management </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2723/112/9-M-IV-SoftwareEngineering%26ProjectMgmt._20190413091458.005_X_20190413091.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2019</td>
+
+                                    <td align="left">B.Tech. (CSE, IBM All Branches) </td>
+
+                                    <td align="left">CSEG 2009 </td>
+
+                                    <td>Data Communication and Computer Networks </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2723/138/7-M-DataCommunication%26Networks_UPDATED.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+
+
+        </tr>
+
+
+
+    </table>
+
+
+
+    </div>
+
+
+
+    </div>
+
+    </li>
+
+    </p>
+
+
+
+    </td>
+    </TABLE>
+
+
+
+    <a name="sem5"></a>
+
+    <table width="99%" border="0" cellspacing="1" cellpadding="1">
+
+        <!--<tr>
+
+<td colspan="2" style="font-family verdana, arial; font-size 80%">&nbsp; &nbsp; &nbsp;<b>E-databases - Engineering</b></td></div>
+
+</tr>-->
+
+        <tr>
+
+            <div class="about-info">
+
+                <td width="99%" valign="top" align="justify">
+
+
+
+
+
+                    <div class="mainpage">
+
+
+
+
+
+
+
+                        <div class="about-info">
+
+                            <table width="100%" align="left" border-style="ridge">
+
+                                <tr>
+
+                                    <td colspan="5" style="align-content: left; background-color: #FFFFCC;">
+                                        <center>
+                                            <font face="Verdana" size="2" color="#0033CC"> <b> B.Tech Computer Science &
+                                                    Engineering with specialization in AI & Machine Learning-SEM-V
+                                        </center>
+                                    </td>
+                                </tr>
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #CCFFFF">
+
+
+
+
+
+                                    <th width="15%" align="left">Year</th>
+
+                                    <th width="25%" align="left">Program/course</th>
+
+
+
+                                    <th width="10%" align="left">Course Code</th>
+
+                                    <th width="35%" align="left">Subject</th>
+
+
+
+                                    <th width="15%" align="left">
+                                        <nobr>Download</nobr>
+                                    </th>
+
+
+
+
+
+                                </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech. CSE AIML</td>
+
+                                    <td align="left">CSAI 3007</td>
+
+                                    <td>Pattern and Anomaly Detection</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3990/67/8166_ESE_DEC21_SOCS__5_BTec-CSE-AIM_CSAI3007_Pattern%20and%20Anomaly%20Detection.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech. CSE AIML</td>
+
+                                    <td align="left">CSAI 3006</td>
+
+                                    <td>Application of Machine Learning in Industries</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3990/66/8165_ESE_DEC21_SOCS__5_BTec-CSE-AIM_CSAI3006_Application%20of%20ML%20in%20Industries.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech. CSE AIML</td>
+
+                                    <td align="left">CSIS 2001P</td>
+
+                                    <td>Introduction to Internet of Things</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3990/65/8164_ESE_DEC21_SOCS__5_BTec-CSE-AIM_CSIS2001P_Introduction%20to%20Internet%20of%20Things.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech. CSE All Branches </td>
+
+                                    <td align="left">CSEG 3015</td>
+
+                                    <td>Compiler Design</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3990/64/8163_ESE_DEC21_SOCS__5_BTec-CSE-AIM_CSEG3015_Compiler%20Design.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech. CSE All Branches </td>
+
+                                    <td align="left">CSEG 3003</td>
+
+                                    <td>Computer Graphics</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3990/63/8162_ESE_DEC21_SOCS__5_BTec-CSE-AIM_CSEG3003_Computer%20Graphics.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech. CSE All Branches </td>
+
+                                    <td align="left">CSEG 3002</td>
+
+                                    <td>Object Oriented Analysis and Design</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3990/62/8161_ESE_DEC21_SOCS__5_BTec-CSE-AIM_CSEG3002_Object%20Oriented%20Analysis%20and%20Design.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left">B. Tech. CSE (CCVT, BFSI, MAD, OSS, ECOM, BAO, AI&ML) </td>
+
+                                    <td align="left">CSIS 2001</td>
+
+                                    <td>Introduction to Internet of Things</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3349/93/ESE_DEC2020_SOCS_B%20TECH%20CSE%20AI%26ML_SEM%20V_CSIS2001P_INTRODUCTION%20TO%20INTERNET%20OF%20THINGS.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left">B. Tech. CSE AI&ML </td>
+
+                                    <td align="left">CSEG 3024</td>
+
+                                    <td>Computational Linguistics and Natural Language Processing</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3349/92/ESE_DEC2020_SOCS_B%20TECH%20CSE%20AI%26ML_SEM%20V_CSEG3024P_COMPUTATIONAL%20LINGUISTICS%20AND%20NATURAL%20LANGUAGE%20PROCESSING.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left">B. Tech. CSE All Branches</td>
+
+                                    <td align="left">CSEG 3015</td>
+
+                                    <td>Compiler Design</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3349/91/ESE_DEC2020_SOCS_B%20TECH%20CSE%20AI%26ML_SEM%20V_CSEG3015_COMPILER%20DESIGN.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left">B. Tech. CSE All Branches</td>
+
+                                    <td align="left">CSEG 3003</td>
+
+                                    <td>Computer Graphics</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3349/90/ESE_DEC2020_SOCS_B%20TECH%20CSE%20AI%26ML_SEM%20V_CSEG3003_COMPUTER%20GRAPHICS.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left">B. Tech. CSE All Branches + Cyber Law</td>
+
+                                    <td align="left">CSEG 3002</td>
+
+                                    <td>Object Oriented Analysis and Design </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3349/89/ESE_DEC2020_SOCS_B%20TECH%20CSE%20AI%26ML_SEM%20V_CSEG3002_OBJECT%20ORIENTED%20ANALYSIS%20AND%20DESIGN.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left">B. Tech. CSE AI&ML </td>
+
+                                    <td align="left">CSBA 3009</td>
+
+                                    <td>Cognitive Analytics</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3349/88/ESE_DEC2020_SOCS_B%20TECH%20CSE%20AI%26ML_SEM%20V_CSBA3009_COGNITIVE%20ANALYTICS.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left">B. Tech. CSE All Branches (ECRA)</td>
+
+                                    <td align="left">CSER 303</td>
+
+                                    <td>Retail Analytics</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3349/29/ESE_DEC2020_SOCS_B%20TECH%20CSE%20ECOMRA_SEM%20V_CSER3003_RETAIL%20ANALYTICS.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2019</td>
+
+                                    <td align="left">B.Tech (CS+ All IBM courses)</td>
+
+                                    <td align="left">CSEG 3004</td>
+
+                                    <td>Formal Language and Automata</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2920/2/B%20TECH%20CSE-ALL-V-FormalLanguagesandAutomataTheory.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2019</td>
+
+                                    <td align="left">B.Tech - CSE + All Branches</td>
+
+                                    <td align="left">CSEG 3002</td>
+
+                                    <td>Object Oriented Analysis and Design </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2920/4/B%20TECH%20CSE-ALL-V-ObjectOrientedAnalysisandDesign.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2018</td>
+
+                                    <td align="left">BTech-CS-All Branches</td>
+
+                                    <td align="left">CSEG 3004</td>
+
+                                    <td>Information Retrieval and Search Engines</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2920/3/B%20TECH%20CSE-ALL-V-InformationRetrievalandSearchEngines.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2017</td>
+
+                                    <td align="left">B.Tech.(CSE, IBM All Branches) </td>
+
+                                    <td align="left">CSEG 345</td>
+
+                                    <td>Formal Languages and Automata Theory</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2731/280/6-M-FormalLanguagesandAutomataTheory_20171202173933.605_X_2017120217393.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2017</td>
+
+                                    <td align="left">B.Tech.(CSE, IBM All Branches) </td>
+
+                                    <td align="left">CSEG 392</td>
+
+                                    <td>.Net Technologies</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2731/364/7-M-.NETTechnologies_20171130123308.825_X.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2017</td>
+
+                                    <td align="left">B.Tech.(CSE, IBM All Branches) </td>
+
+                                    <td align="left">CSEG 393</td>
+
+                                    <td>Information Retrieval and Search Engines</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2731/387/7-M-InformationRetrievalandSearchEngines_20171204163918.864_X.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+
+
+        </tr>
+
+
+
+    </table>
+
+
+
+    </div>
+
+
+
+    </div>
+
+    </li>
+
+    </p>
+
+
+
+    </td>
+    </TABLE>
+
+
+
+    <a name="sem6"></a>
+
+    <table width="99%" border="0" cellspacing="1" cellpadding="1">
+
+        <!--<tr>
+
+<td colspan="2" style="font-family verdana, arial; font-size 80%">&nbsp; &nbsp; &nbsp;<b>E-databases - Engineering</b></td></div>
+
+</tr>-->
+
+        <tr>
+
+            <div class="about-info">
+
+                <td width="99%" valign="top" align="justify">
+
+
+
+
+
+                    <div class="mainpage">
+
+
+
+
+
+
+
+                        <div class="about-info">
+
+                            <table width="100%" align="left" border-style="ridge">
+
+                                <tr>
+
+                                    <td colspan="5" style="align-content: left; background-color: #FFFFCC;">
+                                        <center>
+                                            <font face="Verdana" size="2" color="#CC0000"> <b> B.Tech Computer Science &
+                                                    Engineering with specialization in AI & Machine Learning-SEM-VI
+                                        </center>
+                                    </td>
+                                </tr>
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #CCFFFF">
+
+
+
+
+
+                                    <th width="15%" align="left">Year</th>
+
+                                    <th width="25%" align="left">Program/course</th>
+
+
+
+                                    <th width="10%" align="left">Course Code</th>
+
+                                    <th width="35%" align="left">Subject</th>
+
+
+
+                                    <th width="15%" align="left">
+                                        <nobr>Download</nobr>
+                                    </th>
+
+
+
+                                </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2021</td>
+
+                                    <td align="left">B. Tech. CSE+CSF </td>
+
+                                    <td align="left">CSVT 2001</td>
+
+                                    <td>Introduction to Virtualization & Cloud Computing</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3567/35/ESE_MAY21_SOCS_VI_BTec-CSE-AIM_CSVT2001P_Introduction%20to%20Virtualization%20%26%20Cloud%20Computing.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2021</td>
+
+                                    <td align="left">B. Tech. CSE (Big Data, DevOps, O&G, AIM, IOT, CSF, OSSOS) </td>
+
+                                    <td align="left">CSEG 3018</td>
+
+                                    <td>Microprocessor & Embedded Systems</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3567/34/ESE_MAY21_SOCS_VI_BTec-CSE-AIM_CSEG3018_Micro%20Processor%20%26%20Embedded%20Systems.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2021</td>
+
+                                    <td align="left"> B. Tech CSE (AI-ML)</td>
+
+                                    <td align="left">CSAI 3006</td>
+
+                                    <td>Application of Machine Learning in Industries</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3567/32/ESE_MAY21_SOCS_VI_BTec-CSE-AIM_CSAI3006_Application%20of%20machine%20learning%20in%20industries.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2021</td>
+
+                                    <td align="left"> B. Tech AIML</td>
+
+                                    <td align="left">CSAI 3001</td>
+
+                                    <td>Neural Networks</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3567/31/ESE_MAY21_SOCS_VI_BTec-CSE-AIM_CSAI3001_Neural%20Networks.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left"> B. Tech CSE AIML</td>
+
+                                    <td align="left">CSAI 3107</td>
+
+                                    <td>Pattern and anomaly detection </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3567/33/ESE_MAY21_SOCS_VI_BTec-CSE-AIM_CSAI3007_Pattern%20and%20Anomaly%20Detection.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2020</td>
+
+                                    <td align="left"> B. Tech (CSE) All Program </td>
+
+                                    <td align="left">CSEG 3004</td>
+
+                                    <td>Formal Languages and Automata Theory</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3350/1/ESE_DEC2020_SOCS_B%20TECH%20CSE%20OS%26OS_SEM%20III_CSEG3004_FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">July 2020</td>
+
+                                    <td align="left"> B. Tech (CSE) All Program </td>
+
+                                    <td align="left">CSEG 3006</td>
+
+                                    <td>Microprocessor & Embedded Systems</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3312/6/ESE%20NGB%20B%20TECH%28CSE%2bALL%20SOCS%29%20VI%20CSEG3006%20Micro%20Processor%20%26%20Embedded%20Systems.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2019</td>
+
+                                    <td align="left"> B. Tech (CSE) All IBM Program </td>
+
+                                    <td align="left"> CSEG 372</td>
+
+                                    <td>Microprocessor and Embedded Systems</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2723/132/8-E-VI-MicroProcessor%26EmbeddedSystems_20190412062637.384_X_201904120626.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2019</td>
+
+                                    <td align="left"> B. Tech (CSE) All Program </td>
+
+                                    <td align="left">CSEG 329</td>
+
+                                    <td>Computer Graphics</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2723/135/8-E-computer%20graphics-updated.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2019</td>
+
+                                    <td align="left"> B. Tech (CSE) All Program </td>
+
+                                    <td align="left">CSEG 344 </td>
+
+                                    <td>Artificial Intelligence </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2723/164/6-E-Artificial%20Intelligence-updated.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+
+
+        </tr>
+
+
+
+    </table>
+
+
+
+    </div>
+
+
+
+    </div>
+
+    </li>
+
+    </p>
+
+
+
+    </td>
+    </TABLE>
+
+
+
+    <a name="sem7"></a>
+
+    <table width="99%" border="0" cellspacing="1" cellpadding="1">
+
+        <!--<tr>
+
+<td colspan="2" style="font-family verdana, arial; font-size 80%">&nbsp; &nbsp; &nbsp;<b>E-databases - Engineering</b></td></div>
+
+</tr>-->
+
+        <tr>
+
+            <div class="about-info">
+
+                <td width="99%" valign="top" align="justify">
+
+
+
+
+
+                    <div class="mainpage">
+
+
+
+
+
+
+
+                        <div class="about-info">
+
+                            <table width="100%" align="left" border-style="ridge">
+
+                                <tr>
+
+                                    <td colspan="5" style="align-content: left; background-color: #FFFFCC;">
+                                        <center>
+                                            <font face="Verdana" size="2" color="#0033CC"> <b> B.Tech Computer Science &
+                                                    Engineering with specialization in AI & Machine Learning-SEM-VII
+                                        </center>
+                                    </td>
+                                </tr>
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #CCFFFF">
+
+
+
+
+
+                                    <th width="15%" align="left">Year</th>
+
+                                    <th width="25%" align="left">Program/course</th>
+
+
+
+                                    <th width="10%" align="left">Course Code</th>
+
+                                    <th width="35%" align="left">Subject</th>
+
+
+
+                                    <th width="15%" align="left">
+                                        <nobr>Download</nobr>
+                                    </th>
+
+
+
+                                </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech. CSE OSOS/ CSF/ AI & ML</td>
+
+                                    <td align="left">CSVT 4004P</td>
+
+                                    <td>Cloud Architecture & Deployment Models</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3992/26/8075_ESE_DEC21_SOCS__7_BTec-CSE-AIM_CSVT4004P_Cloud%20Architecture%20%26%20Deployment%20Models.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech. CSE AI & ML</td>
+
+                                    <td align="left">CSBD 4007</td>
+
+                                    <td>Deep Learning Fundamentals</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3992/24/8073_ESE_DEC21_SOCS__7_BTec-CSE-AIM_CSBD4007_Deep%20Learning%20Fundamentals.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech. CSE ECRA/ BAO/ AI&ML/ CCVT</td>
+
+                                    <td align="left">CSBA 4015P</td>
+
+                                    <td>Data Analytics for IoT</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3992/23/8072_ESE_DEC21_SOCS__7_BTec-CSE-AIM_CSBA4015P_Data%20Analytics%20for%20IoT.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">December 2021</td>
+
+                                    <td align="left">B. Tech. CSE</td>
+
+                                    <td align="left">CSEG 4001</td>
+
+                                    <td>Cryptography and Network Security</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3992/22/8071_ESE_DEC21_SOCS__7_BTec-CSE-AIM_CSEG4001_Cryptography%20and%20Network%20Security.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+
+
+        </tr>
+
+
+
+    </table>
+
+
+
+    </div>
+
+
+
+    </div>
+
+    </li>
+
+    </p>
+
+
+
+    </td>
+    </TABLE>
+
+
+
+    <a name="sem8"></a>
+
+    <table width="99%" border="0" cellspacing="1" cellpadding="1">
+
+        <!--<tr>
+
+<td colspan="2" style="font-family verdana, arial; font-size 80%">&nbsp; &nbsp; &nbsp;<b>E-databases - Engineering</b></td></div>
+
+</tr>-->
+
+        <tr>
+
+            <div class="about-info">
+
+                <td width="99%" valign="top" align="justify">
+
+
+
+
+
+                    <div class="mainpage">
+
+
+
+
+
+
+
+                        <div class="about-info">
+
+                            <table width="100%" align="left" border-style="ridge">
+
+                                <tr>
+
+                                    <td colspan="5" style="align-content: left; background-color: #FFFFCC;">
+                                        <center>
+                                            <font face="Verdana" size="2" color="#CC0000"> <b> B.Tech Computer Science &
+                                                    Engineering with specialization in AI & Machine Learning-SEM-VIII
+                                        </center>
+                                    </td>
+                                </tr>
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #CCFFFF">
+
+
+
+
+
+                                    <th width="15%" align="left">Year</th>
+
+                                    <th width="25%" align="left">Program/course</th>
+
+
+
+                                    <th width="10%" align="left">Course Code</th>
+
+                                    <th width="35%" align="left">Subject</th>
+
+
+
+                                    <th width="15%" align="left">
+                                        <nobr>Download</nobr>
+                                    </th>
+
+
+
+
+
+                                </tr>
+
+
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2020</td>
+
+                                    <td align="left">B. Tech CSE ALL IBM</td>
+
+                                    <td align="left">CSIB 493</td>
+
+                                    <td>Back Up and DR</td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/3316/10/C1%20ESE%20GB%20BTECH%20CSE%20MT%20VIII%20CSIB493%20Backup%20and%20DR.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2019</td>
+
+                                    <td align="left">B.Tech. - CS - All IBM specialization </td>
+
+                                    <td align="left">CSIB 480 </td>
+
+                                    <td>Social Analytics </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2723/123/9-E-CSIB%20480%20Social%20Analytics-updated.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+
+
+                                <tr
+                                    style="align-content: left; font-style: Calibri; font-size: 12px; background-color: #ffffff">
+
+                                    <td align="left">May 2019</td>
+
+                                    <td align="left">B.Tech-CSE(ALL Branches) </td>
+
+                                    <td align="left">CSIB 493 </td>
+
+                                    <td>Backup & DR </td>
+
+                                    <td><a CLASS="LINK"
+                                            href="http://dr.ddn.upes.ac.in:8080/jspui/bitstream/123456789/2723/127/9-E-BACKUP%26DR-UPDATED.pdf"
+                                            target="blank">Download</a></td>
+
+                                </tr>
+
+
+
+        </tr>
+
+
+
+    </table>
+
+
+
+    </div>
+
+
+
+    </div>
+
+    </li>
+
+    </p>
+
+
+
+    </td>
+    </TABLE>
+
+    <!--footer-->
+
+
+
+    <br><br>
+
+    <form>
+
+        <input type="button" value="Go back!" onclick="history.back()">
+
+    </form>
+
+
+
+    <div class="ftr-bg">
+
+        <div class="wrap">
+
+            <div class="footer">
+
+                <div class="counter">
+
+                    <!-- Histats.com  START  (standard)-->
+
+                    <!-- <script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
+
+        <a href="http://www.histats.com" target="_blank" title="website statistics" ><script  type="text/javascript" >
+
+            try {Histats.start(1,2787192,4,203,118,65,"00011111");
+
+                Histats.track_hits();} catch(err){};
+
+        </script></a>
+
+        <noscript><a href="http://www.histats.com" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?2787192&101" alt="website statistics" border="0"></a></noscript>
+
+      
+
+        </div>-->
+
+                    <table width="100%"
+                        style="align-content: left; font-style: Calibri; font-size: 10px; background-color: #E3E6EA">
+
+
+
+                        <tr
+                            style="align-content: center; font-style: Calibri; font-size: 10px; background-color: #E3E6EA">
+
+                            <td valign="middle" align="center" height="70">
+
+
+
+                                | &nbsp;&nbsp;<font face="verdana" color="#000000" size="1"><i>Designed & Maintained by
+                                        UPES Library</i>&nbsp;&nbsp;| Last modified:
+
+                                    &nbsp;&nbsp;
+                                    <script language="JavaScript">
+
+                                        document.write(document.lastModified)
+
+                                    </script></small>&nbsp;|<br><br>
+
+                                    <center><img src="../images/tripleline.gif" alt=" " border="0"></center>
+
+                            </td>
+
+                        </tr>
+                    </table>
+
+
+
+                    </td>
+
+                    </tr>
+                    </table>
+
+
+
+                </div>
+
+</body>
+
+</html>
